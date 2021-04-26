@@ -5,7 +5,7 @@ provider "equinix" {
 
 module "silverpeak-sdwan" {
   source               = "equinix/silverpeak-sdwan/equinix"
-  version              = "1.0.0-beta"
+  version              = "1.0.0"
   name                 = "tf-silverpeak-sdwan"
   hostname             = "silverpeak-pri"
   metro_code           = var.metro_code_primary
